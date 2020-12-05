@@ -1,5 +1,5 @@
 ## Hosted on netlify https://isservices.netlify.app/
-# Modern webapp made with react.js and bootstrap 5.0 alpha
+# Modern website made with react.js and bootstrap 5.0 alpha
 
 ## Installation:
 ```bash
