@@ -12,8 +12,9 @@ import xml from '../imgs/xml.svg'
 const Service = () => {
     return(
         <>
+        <section id="service" className="pt-5">
             <div >
-                <h1 className="text-center">Our Services</h1>
+                <h1 className="text-center">Services</h1>
             </div>
             <div className="container-fluid nav-bg">
                 <div className="row">
@@ -79,6 +80,7 @@ const Service = () => {
                     </div>
                 </div>
             </div>
+        </section>
         </>
     )
 }

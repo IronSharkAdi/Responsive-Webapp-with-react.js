@@ -1,10 +1,11 @@
 import React  from 'react'
-import { NavLink } from 'react-router-dom';
+
 
 
 const  Contact = () => {
     return(
         <>
+        <section id="contact" className="pt-5">
             <div>
                 <h1 className="text-center">Contact me</h1>
                 <div>
@@ -26,7 +27,7 @@ const  Contact = () => {
                                             <textarea class="form-control" required id="exampleFormControlTextarea1" rows="3"></textarea>
                                         </div>
                                         <div class="col-12">
-                                            <NavLink class="btn btn-primary" required to="/">Submit form</NavLink>
+                                            <a class="btn btn-primary" href="/">Submit form</a>
                                         </div>
                                     </form>
                                 </div>
@@ -35,6 +36,7 @@ const  Contact = () => {
 
                 </div>
             </div>
+            </section>
         </>
     )
 }

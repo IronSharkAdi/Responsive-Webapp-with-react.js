@@ -1,19 +1,21 @@
 import React  from 'react'
-import { NavLink } from 'react-router-dom';
 import webimg from '../imgs/hero-img.png'
 import Common from './Common'
 
 const Home= () => {
     return(
         <>
+            <section id="home" >
             <Common
                 heading="Grow your business with"
-                secondary="We are a team of talented developer and problem solvers"
+                secondary="I am a full stack developer"
                 btnname="Get Started"
-                link="/service"
+                link="service"
                 imgsrc={webimg}
                 strong="IS"
             />
+            </section>
+
         </>
     )
 }

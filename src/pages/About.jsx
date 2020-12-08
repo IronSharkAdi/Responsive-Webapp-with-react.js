@@ -1,19 +1,20 @@
 import React  from 'react'
-import { NavLink } from 'react-router-dom';
 import aboutimg from '../imgs/code.svg'
 import Common from './Common'
 
 const About = () => {
     return(
         <>
+        <section id="about" className="pt-5">
             <Common 
-            heading="We are a team of enthusiasts and experts on MERN"
-            secondary="Wanna work with us"
-            btnname="Contact Us"
-            link="/contact"
+            heading="I am a tech enthusiast and expert in MERN"
+            secondary="Wanna work with me"
+            btnname="Contact"
+            link="contact"
             imgsrc={aboutimg}
-            stong=" "
+            str     ong=" "
             />
+        </section>
         </>
     )
 }
